@@ -1,23 +1,59 @@
-//
-//  AppDelegate.m
-//  去耍网第一天样式Demo
-//
-//  Created by 邴天宇 on 15/12/1.
-//  Copyright © 2015年 邴天宇. All rights reserved.
-//
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
 
+@interface AppDelegate ()
+{
+    NSArray * titles;
+}
+@property (nonatomic,strong) NSMutableArray *subviewControllers;
 @end
 
 @implementation AppDelegate
-
-
+#pragma mark   ==============Lazy loading==============
+-(NSMutableArray *)subviewControllers
+{
+    if (!_subviewControllers) {
+        _subviewControllers = [NSMutableArray array];
+        titles = @[@"首页",@"商圈",@"购物车",@"星评"];
+    }
+    return _subviewControllers;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [_window makeKeyAndVisible];
+    
+    [self addSubviewController:[FirstViewController new]];
+    [self addSubviewController:[SecondViewController new]];
+    [self addSubviewController:[ThreeViewController new]];
+    [self addSubviewController:[FourViewController new]];
+    
+    UITabBarController * tabController = [[UITabBarController alloc]init];
+    tabController.viewControllers = self.subviewControllers;
+
+    _window.rootViewController = tabController;
     return YES;
+}
+
+- (void)addSubviewController:(UIViewController *)viewcontroller
+{
+    NSString * title =titles[self.subviewControllers.count];
+    if (!self.subviewControllers.count) {
+        title = titles[0];
+    }
+    viewcontroller.tabBarItem = [[UITabBarItem alloc]initWithTitle:title image:[[UIImage imageNamed:title] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:[NSString stringWithFormat:@"%@选中",title]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    viewcontroller.title = title;
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:viewcontroller];
+    [self.subviewControllers addObject:nav];
+    //RGB(54, 185,175)
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:54/255.0 green:185/255.0 blue:175/255.0 alpha:1.0],UITextAttributeTextColor, nil] forState:UIControlStateSelected];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

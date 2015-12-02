@@ -13,6 +13,31 @@
 		183DC3291C0D302D00DD6BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3271C0D302D00DD6BF4 /* Main.storyboard */; };
 		183DC32B1C0D302D00DD6BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183DC32A1C0D302D00DD6BF4 /* Assets.xcassets */; };
 		183DC32E1C0D302D00DD6BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183DC32C1C0D302D00DD6BF4 /* LaunchScreen.storyboard */; };
+		183DC3491C0D354200DD6BF4 /* 购物车.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3411C0D354200DD6BF4 /* 购物车.png */; };
+		183DC34A1C0D354200DD6BF4 /* 购物车选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3421C0D354200DD6BF4 /* 购物车选中.png */; };
+		183DC34B1C0D354200DD6BF4 /* 商圈.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3431C0D354200DD6BF4 /* 商圈.png */; };
+		183DC34C1C0D354200DD6BF4 /* 商圈选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3441C0D354200DD6BF4 /* 商圈选中.png */; };
+		183DC34D1C0D354200DD6BF4 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3451C0D354200DD6BF4 /* 首页.png */; };
+		183DC34E1C0D354200DD6BF4 /* 首页选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3461C0D354200DD6BF4 /* 首页选中.png */; };
+		183DC34F1C0D354200DD6BF4 /* 星评.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3471C0D354200DD6BF4 /* 星评.png */; };
+		183DC3501C0D354200DD6BF4 /* 星评选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3481C0D354200DD6BF4 /* 星评选中.png */; };
+		183DC3641C0D43BA00DD6BF4 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3571C0D43BA00DD6BF4 /* BaseController.m */; };
+		183DC3651C0D43BA00DD6BF4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC35B1C0D43BA00DD6BF4 /* FirstViewController.m */; };
+		183DC3661C0D43BA00DD6BF4 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC35D1C0D43BA00DD6BF4 /* FourViewController.m */; };
+		183DC3671C0D43BA00DD6BF4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC35F1C0D43BA00DD6BF4 /* SecondViewController.m */; };
+		183DC3681C0D43BA00DD6BF4 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3611C0D43BA00DD6BF4 /* ThreeViewController.m */; };
+		183DC36B1C0D43E500DD6BF4 /* CitySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC36A1C0D43E500DD6BF4 /* CitySelectView.m */; };
+		183DC36E1C0D475700DD6BF4 /* TTCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC36D1C0D475700DD6BF4 /* TTCustomCollectionCell.m */; };
+		183DC3741C0D921100DD6BF4 /* JFAllCityNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3731C0D921100DD6BF4 /* JFAllCityNameViewController.m */; };
+		183DC3791C0D921D00DD6BF4 /* JFAllCityNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3761C0D921D00DD6BF4 /* JFAllCityNameCell.m */; };
+		183DC37A1C0D921D00DD6BF4 /* JFHotCityNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3781C0D921D00DD6BF4 /* JFHotCityNameCell.m */; };
+		183DC37C1C0D925300DD6BF4 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183DC37B1C0D925300DD6BF4 /* citydict.plist */; };
+		183DC3801C0D929F00DD6BF4 /* JFCityTitleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC37E1C0D929F00DD6BF4 /* JFCityTitleHeaderView.m */; };
+		183DC3811C0D929F00DD6BF4 /* JFCityTitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DC37F1C0D929F00DD6BF4 /* JFCityTitleHeaderView.xib */; };
+		183DC3841C0D9ED800DD6BF4 /* TTCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3831C0D9ED800DD6BF4 /* TTCustomCell.m */; };
+		183DC3861C0D9F3900DD6BF4 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183DC3851C0D9F3900DD6BF4 /* logo.jpg */; };
+		183DC38A1C0DABDE00DD6BF4 /* TTStarPraiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DC3891C0DABDE00DD6BF4 /* TTStarPraiseView.m */; };
+		F952B7DF226F2A6CCF6E1B3D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A233F68E9A857FAB9C008D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +51,47 @@
 		183DC32A1C0D302D00DD6BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183DC32D1C0D302D00DD6BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183DC32F1C0D302D00DD6BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183DC3411C0D354200DD6BF4 /* 购物车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "购物车.png"; path = "Assets.xcassets/购物车.png"; sourceTree = "<group>"; };
+		183DC3421C0D354200DD6BF4 /* 购物车选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "购物车选中.png"; path = "Assets.xcassets/购物车选中.png"; sourceTree = "<group>"; };
+		183DC3431C0D354200DD6BF4 /* 商圈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "商圈.png"; path = "Assets.xcassets/商圈.png"; sourceTree = "<group>"; };
+		183DC3441C0D354200DD6BF4 /* 商圈选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "商圈选中.png"; path = "Assets.xcassets/商圈选中.png"; sourceTree = "<group>"; };
+		183DC3451C0D354200DD6BF4 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "首页.png"; path = "Assets.xcassets/首页.png"; sourceTree = "<group>"; };
+		183DC3461C0D354200DD6BF4 /* 首页选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "首页选中.png"; path = "Assets.xcassets/首页选中.png"; sourceTree = "<group>"; };
+		183DC3471C0D354200DD6BF4 /* 星评.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "星评.png"; path = "Assets.xcassets/星评.png"; sourceTree = "<group>"; };
+		183DC3481C0D354200DD6BF4 /* 星评选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "星评选中.png"; path = "Assets.xcassets/星评选中.png"; sourceTree = "<group>"; };
+		183DC3541C0D396C00DD6BF4 /* TT_PCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TT_PCH.h; sourceTree = "<group>"; };
+		183DC3561C0D43BA00DD6BF4 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		183DC3571C0D43BA00DD6BF4 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		183DC35A1C0D43BA00DD6BF4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		183DC35B1C0D43BA00DD6BF4 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		183DC35C1C0D43BA00DD6BF4 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		183DC35D1C0D43BA00DD6BF4 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		183DC35E1C0D43BA00DD6BF4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		183DC35F1C0D43BA00DD6BF4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		183DC3601C0D43BA00DD6BF4 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		183DC3611C0D43BA00DD6BF4 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		183DC3691C0D43E500DD6BF4 /* CitySelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectView.h; sourceTree = "<group>"; };
+		183DC36A1C0D43E500DD6BF4 /* CitySelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectView.m; sourceTree = "<group>"; };
+		183DC36C1C0D475700DD6BF4 /* TTCustomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCustomCollectionCell.h; sourceTree = "<group>"; };
+		183DC36D1C0D475700DD6BF4 /* TTCustomCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCustomCollectionCell.m; sourceTree = "<group>"; };
+		183DC3721C0D921100DD6BF4 /* JFAllCityNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAllCityNameViewController.h; sourceTree = "<group>"; };
+		183DC3731C0D921100DD6BF4 /* JFAllCityNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAllCityNameViewController.m; sourceTree = "<group>"; };
+		183DC3751C0D921D00DD6BF4 /* JFAllCityNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAllCityNameCell.h; sourceTree = "<group>"; };
+		183DC3761C0D921D00DD6BF4 /* JFAllCityNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAllCityNameCell.m; sourceTree = "<group>"; };
+		183DC3771C0D921D00DD6BF4 /* JFHotCityNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotCityNameCell.h; sourceTree = "<group>"; };
+		183DC3781C0D921D00DD6BF4 /* JFHotCityNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotCityNameCell.m; sourceTree = "<group>"; };
+		183DC37B1C0D925300DD6BF4 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		183DC37D1C0D929F00DD6BF4 /* JFCityTitleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityTitleHeaderView.h; sourceTree = "<group>"; };
+		183DC37E1C0D929F00DD6BF4 /* JFCityTitleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityTitleHeaderView.m; sourceTree = "<group>"; };
+		183DC37F1C0D929F00DD6BF4 /* JFCityTitleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFCityTitleHeaderView.xib; sourceTree = "<group>"; };
+		183DC3821C0D9ED800DD6BF4 /* TTCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCustomCell.h; sourceTree = "<group>"; };
+		183DC3831C0D9ED800DD6BF4 /* TTCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCustomCell.m; sourceTree = "<group>"; };
+		183DC3851C0D9F3900DD6BF4 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		183DC3881C0DABDE00DD6BF4 /* TTStarPraiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStarPraiseView.h; sourceTree = "<group>"; };
+		183DC3891C0DABDE00DD6BF4 /* TTStarPraiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStarPraiseView.m; sourceTree = "<group>"; };
+		58A233F68E9A857FAB9C008D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8A88CDBE009D5D3F2431F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C07F77F5A529B5B1A26481D5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F952B7DF226F2A6CCF6E1B3D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +111,8 @@
 			children = (
 				183DC31D1C0D302D00DD6BF4 /* 去耍网第一天样式Demo */,
 				183DC31C1C0D302D00DD6BF4 /* Products */,
+				C32FE16FA56276947735C06D /* Pods */,
+				1F5643C1578A90AC97866CA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +127,8 @@
 		183DC31D1C0D302D00DD6BF4 /* 去耍网第一天样式Demo */ = {
 			isa = PBXGroup;
 			children = (
+				183DC3551C0D43BA00DD6BF4 /* BaseLibrary */,
+				183DC3581C0D43BA00DD6BF4 /* Home */,
 				183DC3211C0D302D00DD6BF4 /* AppDelegate.h */,
 				183DC3221C0D302D00DD6BF4 /* AppDelegate.m */,
 				183DC3241C0D302D00DD6BF4 /* ViewController.h */,
@@ -74,9 +145,110 @@
 		183DC31E1C0D302D00DD6BF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				183DC3851C0D9F3900DD6BF4 /* logo.jpg */,
+				183DC3541C0D396C00DD6BF4 /* TT_PCH.h */,
+				183DC37B1C0D925300DD6BF4 /* citydict.plist */,
+				183DC3411C0D354200DD6BF4 /* 购物车.png */,
+				183DC3421C0D354200DD6BF4 /* 购物车选中.png */,
+				183DC3431C0D354200DD6BF4 /* 商圈.png */,
+				183DC3441C0D354200DD6BF4 /* 商圈选中.png */,
+				183DC3451C0D354200DD6BF4 /* 首页.png */,
+				183DC3461C0D354200DD6BF4 /* 首页选中.png */,
+				183DC3471C0D354200DD6BF4 /* 星评.png */,
+				183DC3481C0D354200DD6BF4 /* 星评选中.png */,
 				183DC31F1C0D302D00DD6BF4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183DC3551C0D43BA00DD6BF4 /* BaseLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				183DC3561C0D43BA00DD6BF4 /* BaseController.h */,
+				183DC3571C0D43BA00DD6BF4 /* BaseController.m */,
+			);
+			path = BaseLibrary;
+			sourceTree = "<group>";
+		};
+		183DC3581C0D43BA00DD6BF4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				183DC3591C0D43BA00DD6BF4 /* Controller */,
+				183DC3621C0D43BA00DD6BF4 /* Model */,
+				183DC3631C0D43BA00DD6BF4 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		183DC3591C0D43BA00DD6BF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				183DC3721C0D921100DD6BF4 /* JFAllCityNameViewController.h */,
+				183DC3731C0D921100DD6BF4 /* JFAllCityNameViewController.m */,
+				183DC35A1C0D43BA00DD6BF4 /* FirstViewController.h */,
+				183DC35B1C0D43BA00DD6BF4 /* FirstViewController.m */,
+				183DC35C1C0D43BA00DD6BF4 /* FourViewController.h */,
+				183DC35D1C0D43BA00DD6BF4 /* FourViewController.m */,
+				183DC35E1C0D43BA00DD6BF4 /* SecondViewController.h */,
+				183DC35F1C0D43BA00DD6BF4 /* SecondViewController.m */,
+				183DC3601C0D43BA00DD6BF4 /* ThreeViewController.h */,
+				183DC3611C0D43BA00DD6BF4 /* ThreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183DC3621C0D43BA00DD6BF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		183DC3631C0D43BA00DD6BF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183DC3871C0DABB300DD6BF4 /* 五星评价 */,
+				183DC37D1C0D929F00DD6BF4 /* JFCityTitleHeaderView.h */,
+				183DC37E1C0D929F00DD6BF4 /* JFCityTitleHeaderView.m */,
+				183DC3821C0D9ED800DD6BF4 /* TTCustomCell.h */,
+				183DC3831C0D9ED800DD6BF4 /* TTCustomCell.m */,
+				183DC37F1C0D929F00DD6BF4 /* JFCityTitleHeaderView.xib */,
+				183DC3751C0D921D00DD6BF4 /* JFAllCityNameCell.h */,
+				183DC3761C0D921D00DD6BF4 /* JFAllCityNameCell.m */,
+				183DC3771C0D921D00DD6BF4 /* JFHotCityNameCell.h */,
+				183DC3781C0D921D00DD6BF4 /* JFHotCityNameCell.m */,
+				183DC3691C0D43E500DD6BF4 /* CitySelectView.h */,
+				183DC36A1C0D43E500DD6BF4 /* CitySelectView.m */,
+				183DC36C1C0D475700DD6BF4 /* TTCustomCollectionCell.h */,
+				183DC36D1C0D475700DD6BF4 /* TTCustomCollectionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183DC3871C0DABB300DD6BF4 /* 五星评价 */ = {
+			isa = PBXGroup;
+			children = (
+				183DC3881C0DABDE00DD6BF4 /* TTStarPraiseView.h */,
+				183DC3891C0DABDE00DD6BF4 /* TTStarPraiseView.m */,
+			);
+			path = "五星评价";
+			sourceTree = "<group>";
+		};
+		1F5643C1578A90AC97866CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A233F68E9A857FAB9C008D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32FE16FA56276947735C06D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C07F77F5A529B5B1A26481D5 /* Pods.debug.xcconfig */,
+				8C8A88CDBE009D5D3F2431F4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183DC3321C0D302D00DD6BF4 /* Build configuration list for PBXNativeTarget "去耍网第一天样式Demo" */;
 			buildPhases = (
+				86EC618173EC15B15D4CA131 /* Check Pods Manifest.lock */,
 				183DC3171C0D302D00DD6BF4 /* Sources */,
 				183DC3181C0D302D00DD6BF4 /* Frameworks */,
 				183DC3191C0D302D00DD6BF4 /* Resources */,
+				221D7298FBA6FF7CDDA1CDB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,22 +310,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183DC34F1C0D354200DD6BF4 /* 星评.png in Resources */,
+				183DC37C1C0D925300DD6BF4 /* citydict.plist in Resources */,
 				183DC32E1C0D302D00DD6BF4 /* LaunchScreen.storyboard in Resources */,
+				183DC3501C0D354200DD6BF4 /* 星评选中.png in Resources */,
 				183DC32B1C0D302D00DD6BF4 /* Assets.xcassets in Resources */,
+				183DC3491C0D354200DD6BF4 /* 购物车.png in Resources */,
+				183DC34B1C0D354200DD6BF4 /* 商圈.png in Resources */,
+				183DC34D1C0D354200DD6BF4 /* 首页.png in Resources */,
+				183DC34A1C0D354200DD6BF4 /* 购物车选中.png in Resources */,
+				183DC34E1C0D354200DD6BF4 /* 首页选中.png in Resources */,
 				183DC3291C0D302D00DD6BF4 /* Main.storyboard in Resources */,
+				183DC3861C0D9F3900DD6BF4 /* logo.jpg in Resources */,
+				183DC34C1C0D354200DD6BF4 /* 商圈选中.png in Resources */,
+				183DC3811C0D929F00DD6BF4 /* JFCityTitleHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		221D7298FBA6FF7CDDA1CDB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EC618173EC15B15D4CA131 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		183DC3171C0D302D00DD6BF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183DC36E1C0D475700DD6BF4 /* TTCustomCollectionCell.m in Sources */,
+				183DC3741C0D921100DD6BF4 /* JFAllCityNameViewController.m in Sources */,
+				183DC3661C0D43BA00DD6BF4 /* FourViewController.m in Sources */,
 				183DC3261C0D302D00DD6BF4 /* ViewController.m in Sources */,
 				183DC3231C0D302D00DD6BF4 /* AppDelegate.m in Sources */,
+				183DC3801C0D929F00DD6BF4 /* JFCityTitleHeaderView.m in Sources */,
+				183DC3671C0D43BA00DD6BF4 /* SecondViewController.m in Sources */,
+				183DC3841C0D9ED800DD6BF4 /* TTCustomCell.m in Sources */,
+				183DC3651C0D43BA00DD6BF4 /* FirstViewController.m in Sources */,
+				183DC3641C0D43BA00DD6BF4 /* BaseController.m in Sources */,
+				183DC37A1C0D921D00DD6BF4 /* JFHotCityNameCell.m in Sources */,
+				183DC36B1C0D43E500DD6BF4 /* CitySelectView.m in Sources */,
+				183DC3791C0D921D00DD6BF4 /* JFAllCityNameCell.m in Sources */,
 				183DC3201C0D302D00DD6BF4 /* main.m in Sources */,
+				183DC38A1C0DABDE00DD6BF4 /* TTStarPraiseView.m in Sources */,
+				183DC3681C0D43BA00DD6BF4 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +492,11 @@
 		};
 		183DC3331C0D302D00DD6BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07F77F5A529B5B1A26481D5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/去耍网第一天样式Demo/TT_PCH.h";
 				INFOPLIST_FILE = "去耍网第一天样式Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tianyu.--------Demo";
@@ -272,8 +506,11 @@
 		};
 		183DC3341C0D302D00DD6BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8A88CDBE009D5D3F2431F4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/去耍网第一天样式Demo/TT_PCH.h";
 				INFOPLIST_FILE = "去耍网第一天样式Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tianyu.--------Demo";
@@ -300,6 +537,7 @@
 				183DC3341C0D302D00DD6BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

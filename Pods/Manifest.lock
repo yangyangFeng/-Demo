@@ -1,0 +1,79 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - HYBMasonryAutoCellHeight (0.0.1):
+    - Masonry (~> 0.6)
+  - INTULocationManager (3.0.3)
+  - IQKeyboardManager (3.3.4)
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (2.5.16)
+  - MJRefresh (1.4.7)
+  - QBImagePickerController (2.2.4)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVPullToRefresh (0.4.1)
+  - TTCategory (1.0.2)
+  - UIView+NibLoading (1.2.0)
+  - YRADScrollView (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.0)
+  - FMDB (~> 2.5)
+  - HYBMasonryAutoCellHeight (~> 0.0.1)
+  - INTULocationManager (~> 3.0.1)
+  - IQKeyboardManager
+  - Masonry (~> 0.6.3)
+  - MBProgressHUD (~> 0.9)
+  - MJExtension (~> 2.5.14)
+  - MJRefresh (~> 1.4.5)
+  - QBImagePickerController (~> 2.2.2)
+  - SDWebImage (~> 3.7.1)
+  - SVPullToRefresh (~> 0.4.1)
+  - TTCategory (~> 1.0.2)
+  - UIView+NibLoading (~> 1.2.0)
+  - YRADScrollView (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  HYBMasonryAutoCellHeight: 4d477f9a6c021ca343f460517c5eb833be2f92a7
+  INTULocationManager: e79327803a163f5fec28eb042bb124ed0c6e4876
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: b8c1321a77d91bcc007b94d38cbf5383c95ea30e
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  QBImagePickerController: 2564a35c4ad1eb6da7324ae413a84c980eb341b9
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TTCategory: 079cd94ab67a6f3fc949a76f7157e304ed90fedb
+  UIView+NibLoading: 20b93220eeaa99212c608a03c79b13de521d61a5
+  YRADScrollView: f695696d16259142e889dfac6d8e2635024ecd5d
+
+COCOAPODS: 0.38.2
